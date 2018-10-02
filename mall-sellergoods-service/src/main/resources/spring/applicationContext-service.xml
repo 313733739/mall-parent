@@ -8,10 +8,11 @@
         http://code.alibabatech.com/schema/dubbo http://code.alibabatech.com/schema/dubbo/dubbo.xsd
         http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd">
 
+
 	<dubbo:protocol name="dubbo" port="20881"/>
 	<dubbo:application name="marshal-sellergoods-service"/>
     <dubbo:registry address="zookeeper://192.168.25.128:2181"/>
     <dubbo:annotation package="com.marshal.sellergoods.service.impl"/>
-   
+	<dubbo:provider timeout="5000" />
    
 </beans>

@@ -1,6 +1,5 @@
 ##ignore this file##
 target
+.idea
 
 *.iml
-
-workspace.xml

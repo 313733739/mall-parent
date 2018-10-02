@@ -1,310 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9aeed841-bcdd-448d-b124-45e1339667e8" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall-common/target/mall-common-1.0-SNAPSHOT.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall-common/target/maven-archiver/pom.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall-common/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall-common/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall-dao/src/main/resources/com/marshal/mapper/TbAddressMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall-dao/src/main/resources/com/marshal/mapper/TbAreasMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall-dao/src/main/resources/com/marshal/mapper/TbCitiesMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall-dao/src/main/resources/com/marshal/mapper/TbContentCategoryMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall-dao/src/main/resources/com/marshal/mapper/TbContentMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall-dao/src/main/resources/com/marshal/mapper/TbFreightTemplateMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall-dao/src/main/resources/com/marshal/mapper/TbGoodsDescMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall-dao/src/main/resources/com/marshal/mapper/TbGoodsMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall-dao/src/main/resources/com/marshal/mapper/TbItemCatMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall-dao/src/main/resources/com/marshal/mapper/TbItemMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall-dao/src/main/resources/com/marshal/mapper/TbOrderItemMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall-dao/src/main/resources/com/marshal/mapper/TbOrderMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall-dao/src/main/resources/com/marshal/mapper/TbPayLogMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall-dao/src/main/resources/com/marshal/mapper/TbProvincesMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall-dao/src/main/resources/com/marshal/mapper/TbSeckillGoodsMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall-dao/src/main/resources/com/marshal/mapper/TbSeckillOrderMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall-dao/src/main/resources/com/marshal/mapper/TbSellerMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall-dao/src/main/resources/com/marshal/mapper/TbSpecificationMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall-dao/src/main/resources/com/marshal/mapper/TbSpecificationOptionMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall-dao/src/main/resources/com/marshal/mapper/TbTypeTemplateMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall-dao/src/main/resources/com/marshal/mapper/TbUserMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall-dao/target/classes/com/marshal/mapper/TbBrandMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall-dao/target/classes/com/marshal/mapper/TbBrandMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall-dao/target/classes/mybatis/mybatisConfig.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall-dao/target/classes/properties/db.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall-dao/target/classes/spring/applicationContext-dao.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall-dao/target/mall-dao-1.0-SNAPSHOT.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall-dao/target/maven-archiver/pom.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall-dao/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall-dao/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall-dao/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall-manager-web/src/main/resources/spring/springmvc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mall-manager-web/src/main/resources/spring/springmvc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall-manager-web/target/classes/com/marshal/manager/controller/BrandController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall-manager-web/target/classes/config/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall-manager-web/target/classes/spring/springmvc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall-manager-web/target/mall-manager-web-1.0-SNAPSHOT.war" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall-manager-web/target/mall-manager-web-1.0-SNAPSHOT/WEB-INF/classes/com/marshal/manager/controller/BrandController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall-manager-web/target/mall-manager-web-1.0-SNAPSHOT/WEB-INF/classes/config/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall-manager-web/target/mall-manager-web-1.0-SNAPSHOT/WEB-INF/classes/spring/springmvc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall-manager-web/target/mall-manager-web-1.0-SNAPSHOT/WEB-INF/lib/aopalliance-1.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall-manager-web/target/mall-manager-web-1.0-SNAPSHOT/WEB-INF/lib/aspectjweaver-1.8.7.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall-manager-web/target/mall-manager-web-1.0-SNAPSHOT/WEB-INF/lib/commons-codec-1.10.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall-manager-web/target/mall-manager-web-1.0-SNAPSHOT/WEB-INF/lib/commons-logging-1.2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall-manager-web/target/mall-manager-web-1.0-SNAPSHOT/WEB-INF/lib/dubbo-2.8.4.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall-manager-web/target/mall-manager-web-1.0-SNAPSHOT/WEB-INF/lib/fastjson-1.2.28.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall-manager-web/target/mall-manager-web-1.0-SNAPSHOT/WEB-INF/lib/hamcrest-core-1.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall-manager-web/target/mall-manager-web-1.0-SNAPSHOT/WEB-INF/lib/javassist-3.11.0.GA.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall-manager-web/target/mall-manager-web-1.0-SNAPSHOT/WEB-INF/lib/jline-0.9.94.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall-manager-web/target/mall-manager-web-1.0-SNAPSHOT/WEB-INF/lib/junit-4.9.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall-manager-web/target/mall-manager-web-1.0-SNAPSHOT/WEB-INF/lib/log4j-1.2.16.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall-manager-web/target/mall-manager-web-1.0-SNAPSHOT/WEB-INF/lib/mall-pojo-1.0-SNAPSHOT.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall-manager-web/target/mall-manager-web-1.0-SNAPSHOT/WEB-INF/lib/mall-sellergoods-interface-1.0-SNAPSHOT.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall-manager-web/target/mall-manager-web-1.0-SNAPSHOT/WEB-INF/lib/netty-3.7.0.Final.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall-manager-web/target/mall-manager-web-1.0-SNAPSHOT/WEB-INF/lib/slf4j-api-1.6.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall-manager-web/target/mall-manager-web-1.0-SNAPSHOT/WEB-INF/lib/slf4j-log4j12-1.6.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall-manager-web/target/mall-manager-web-1.0-SNAPSHOT/WEB-INF/lib/spring-aop-4.2.4.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall-manager-web/target/mall-manager-web-1.0-SNAPSHOT/WEB-INF/lib/spring-aspects-4.2.4.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall-manager-web/target/mall-manager-web-1.0-SNAPSHOT/WEB-INF/lib/spring-beans-4.2.4.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall-manager-web/target/mall-manager-web-1.0-SNAPSHOT/WEB-INF/lib/spring-context-4.2.4.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall-manager-web/target/mall-manager-web-1.0-SNAPSHOT/WEB-INF/lib/spring-context-support-4.2.4.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall-manager-web/target/mall-manager-web-1.0-SNAPSHOT/WEB-INF/lib/spring-core-4.2.4.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall-manager-web/target/mall-manager-web-1.0-SNAPSHOT/WEB-INF/lib/spring-expression-4.2.4.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall-manager-web/target/mall-manager-web-1.0-SNAPSHOT/WEB-INF/lib/spring-jdbc-4.2.4.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall-manager-web/target/mall-manager-web-1.0-SNAPSHOT/WEB-INF/lib/spring-jms-4.2.4.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall-manager-web/target/mall-manager-web-1.0-SNAPSHOT/WEB-INF/lib/spring-messaging-4.2.4.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall-manager-web/target/mall-manager-web-1.0-SNAPSHOT/WEB-INF/lib/spring-test-4.2.4.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall-manager-web/target/mall-manager-web-1.0-SNAPSHOT/WEB-INF/lib/spring-tx-4.2.4.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall-manager-web/target/mall-manager-web-1.0-SNAPSHOT/WEB-INF/lib/spring-web-4.2.4.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall-manager-web/target/mall-manager-web-1.0-SNAPSHOT/WEB-INF/lib/spring-webmvc-4.2.4.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall-manager-web/target/mall-manager-web-1.0-SNAPSHOT/WEB-INF/lib/zkclient-0.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall-manager-web/target/mall-manager-web-1.0-SNAPSHOT/WEB-INF/lib/zookeeper-3.4.7.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall-manager-web/target/mall-manager-web-1.0-SNAPSHOT/WEB-INF/web.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall-manager-web/target/maven-archiver/pom.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall-manager-web/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall-manager-web/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall-manager-web/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall-manager-web/target/tomcat/conf/logging.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall-manager-web/target/tomcat/conf/tomcat-users.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall-manager-web/target/tomcat/conf/web.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall-manager-web/target/tomcat/logs/access_log.2018-10-02" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall-pojo/target/classes/com/marshal/pojo/TbAddress.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall-pojo/target/classes/com/marshal/pojo/TbAddressExample$Criteria.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall-pojo/target/classes/com/marshal/pojo/TbAddressExample$Criterion.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall-pojo/target/classes/com/marshal/pojo/TbAddressExample$GeneratedCriteria.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall-pojo/target/classes/com/marshal/pojo/TbAddressExample.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall-pojo/target/classes/com/marshal/pojo/TbAreas.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall-pojo/target/classes/com/marshal/pojo/TbAreasExample$Criteria.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall-pojo/target/classes/com/marshal/pojo/TbAreasExample$Criterion.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall-pojo/target/classes/com/marshal/pojo/TbAreasExample$GeneratedCriteria.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall-pojo/target/classes/com/marshal/pojo/TbAreasExample.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall-pojo/target/classes/com/marshal/pojo/TbBrand.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall-pojo/target/classes/com/marshal/pojo/TbBrandExample$Criteria.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall-pojo/target/classes/com/marshal/pojo/TbBrandExample$Criterion.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall-pojo/target/classes/com/marshal/pojo/TbBrandExample$GeneratedCriteria.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall-pojo/target/classes/com/marshal/pojo/TbBrandExample.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall-pojo/target/classes/com/marshal/pojo/TbCities.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall-pojo/target/classes/com/marshal/pojo/TbCitiesExample$Criteria.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall-pojo/target/classes/com/marshal/pojo/TbCitiesExample$Criterion.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall-pojo/target/classes/com/marshal/pojo/TbCitiesExample$GeneratedCriteria.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall-pojo/target/classes/com/marshal/pojo/TbCitiesExample.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall-pojo/target/classes/com/marshal/pojo/TbContent.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall-pojo/target/classes/com/marshal/pojo/TbContentCategory.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall-pojo/target/classes/com/marshal/pojo/TbContentCategoryExample$Criteria.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall-pojo/target/classes/com/marshal/pojo/TbContentCategoryExample$Criterion.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall-pojo/target/classes/com/marshal/pojo/TbContentCategoryExample$GeneratedCriteria.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall-pojo/target/classes/com/marshal/pojo/TbContentCategoryExample.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall-pojo/target/classes/com/marshal/pojo/TbContentExample$Criteria.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall-pojo/target/classes/com/marshal/pojo/TbContentExample$Criterion.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall-pojo/target/classes/com/marshal/pojo/TbContentExample$GeneratedCriteria.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall-pojo/target/classes/com/marshal/pojo/TbContentExample.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall-pojo/target/classes/com/marshal/pojo/TbFreightTemplate.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall-pojo/target/classes/com/marshal/pojo/TbFreightTemplateExample$Criteria.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall-pojo/target/classes/com/marshal/pojo/TbFreightTemplateExample$Criterion.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall-pojo/target/classes/com/marshal/pojo/TbFreightTemplateExample$GeneratedCriteria.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall-pojo/target/classes/com/marshal/pojo/TbFreightTemplateExample.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall-pojo/target/classes/com/marshal/pojo/TbGoods.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall-pojo/target/classes/com/marshal/pojo/TbGoodsDesc.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall-pojo/target/classes/com/marshal/pojo/TbGoodsDescExample$Criteria.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall-pojo/target/classes/com/marshal/pojo/TbGoodsDescExample$Criterion.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall-pojo/target/classes/com/marshal/pojo/TbGoodsDescExample$GeneratedCriteria.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall-pojo/target/classes/com/marshal/pojo/TbGoodsDescExample.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall-pojo/target/classes/com/marshal/pojo/TbGoodsExample$Criteria.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall-pojo/target/classes/com/marshal/pojo/TbGoodsExample$Criterion.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall-pojo/target/classes/com/marshal/pojo/TbGoodsExample$GeneratedCriteria.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall-pojo/target/classes/com/marshal/pojo/TbGoodsExample.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall-pojo/target/classes/com/marshal/pojo/TbItem.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall-pojo/target/classes/com/marshal/pojo/TbItemCat.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall-pojo/target/classes/com/marshal/pojo/TbItemCatExample$Criteria.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall-pojo/target/classes/com/marshal/pojo/TbItemCatExample$Criterion.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall-pojo/target/classes/com/marshal/pojo/TbItemCatExample$GeneratedCriteria.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall-pojo/target/classes/com/marshal/pojo/TbItemCatExample.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall-pojo/target/classes/com/marshal/pojo/TbItemExample$Criteria.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall-pojo/target/classes/com/marshal/pojo/TbItemExample$Criterion.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall-pojo/target/classes/com/marshal/pojo/TbItemExample$GeneratedCriteria.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall-pojo/target/classes/com/marshal/pojo/TbItemExample.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall-pojo/target/classes/com/marshal/pojo/TbOrder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall-pojo/target/classes/com/marshal/pojo/TbOrderExample$Criteria.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall-pojo/target/classes/com/marshal/pojo/TbOrderExample$Criterion.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall-pojo/target/classes/com/marshal/pojo/TbOrderExample$GeneratedCriteria.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall-pojo/target/classes/com/marshal/pojo/TbOrderExample.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall-pojo/target/classes/com/marshal/pojo/TbOrderItem.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall-pojo/target/classes/com/marshal/pojo/TbOrderItemExample$Criteria.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall-pojo/target/classes/com/marshal/pojo/TbOrderItemExample$Criterion.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall-pojo/target/classes/com/marshal/pojo/TbOrderItemExample$GeneratedCriteria.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall-pojo/target/classes/com/marshal/pojo/TbOrderItemExample.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall-pojo/target/classes/com/marshal/pojo/TbPayLog.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall-pojo/target/classes/com/marshal/pojo/TbPayLogExample$Criteria.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall-pojo/target/classes/com/marshal/pojo/TbPayLogExample$Criterion.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall-pojo/target/classes/com/marshal/pojo/TbPayLogExample$GeneratedCriteria.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall-pojo/target/classes/com/marshal/pojo/TbPayLogExample.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall-pojo/target/classes/com/marshal/pojo/TbProvinces.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall-pojo/target/classes/com/marshal/pojo/TbProvincesExample$Criteria.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall-pojo/target/classes/com/marshal/pojo/TbProvincesExample$Criterion.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall-pojo/target/classes/com/marshal/pojo/TbProvincesExample$GeneratedCriteria.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall-pojo/target/classes/com/marshal/pojo/TbProvincesExample.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall-pojo/target/classes/com/marshal/pojo/TbSeckillGoods.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall-pojo/target/classes/com/marshal/pojo/TbSeckillGoodsExample$Criteria.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall-pojo/target/classes/com/marshal/pojo/TbSeckillGoodsExample$Criterion.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall-pojo/target/classes/com/marshal/pojo/TbSeckillGoodsExample$GeneratedCriteria.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall-pojo/target/classes/com/marshal/pojo/TbSeckillGoodsExample.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall-pojo/target/classes/com/marshal/pojo/TbSeckillOrder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall-pojo/target/classes/com/marshal/pojo/TbSeckillOrderExample$Criteria.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall-pojo/target/classes/com/marshal/pojo/TbSeckillOrderExample$Criterion.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall-pojo/target/classes/com/marshal/pojo/TbSeckillOrderExample$GeneratedCriteria.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall-pojo/target/classes/com/marshal/pojo/TbSeckillOrderExample.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall-pojo/target/classes/com/marshal/pojo/TbSeller.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall-pojo/target/classes/com/marshal/pojo/TbSellerExample$Criteria.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall-pojo/target/classes/com/marshal/pojo/TbSellerExample$Criterion.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall-pojo/target/classes/com/marshal/pojo/TbSellerExample$GeneratedCriteria.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall-pojo/target/classes/com/marshal/pojo/TbSellerExample.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall-pojo/target/classes/com/marshal/pojo/TbSpecification.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall-pojo/target/classes/com/marshal/pojo/TbSpecificationExample$Criteria.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall-pojo/target/classes/com/marshal/pojo/TbSpecificationExample$Criterion.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall-pojo/target/classes/com/marshal/pojo/TbSpecificationExample$GeneratedCriteria.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall-pojo/target/classes/com/marshal/pojo/TbSpecificationExample.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall-pojo/target/classes/com/marshal/pojo/TbSpecificationOption.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall-pojo/target/classes/com/marshal/pojo/TbSpecificationOptionExample$Criteria.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall-pojo/target/classes/com/marshal/pojo/TbSpecificationOptionExample$Criterion.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall-pojo/target/classes/com/marshal/pojo/TbSpecificationOptionExample$GeneratedCriteria.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall-pojo/target/classes/com/marshal/pojo/TbSpecificationOptionExample.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall-pojo/target/classes/com/marshal/pojo/TbTypeTemplate.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall-pojo/target/classes/com/marshal/pojo/TbTypeTemplateExample$Criteria.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall-pojo/target/classes/com/marshal/pojo/TbTypeTemplateExample$Criterion.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall-pojo/target/classes/com/marshal/pojo/TbTypeTemplateExample$GeneratedCriteria.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall-pojo/target/classes/com/marshal/pojo/TbTypeTemplateExample.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall-pojo/target/classes/com/marshal/pojo/TbUser.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall-pojo/target/classes/com/marshal/pojo/TbUserExample$Criteria.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall-pojo/target/classes/com/marshal/pojo/TbUserExample$Criterion.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall-pojo/target/classes/com/marshal/pojo/TbUserExample$GeneratedCriteria.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall-pojo/target/classes/com/marshal/pojo/TbUserExample.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall-pojo/target/mall-pojo-1.0-SNAPSHOT.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall-pojo/target/maven-archiver/pom.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall-pojo/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall-pojo/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall-pojo/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall-sellergoods-interface/target/classes/com/marshal/sellergoods/service/BrandService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall-sellergoods-interface/target/mall-sellergoods-interface-1.0-SNAPSHOT.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall-sellergoods-interface/target/maven-archiver/pom.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall-sellergoods-interface/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall-sellergoods-interface/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall-sellergoods-interface/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall-sellergoods-service/src/main/resources/spring/applicationContext-service.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mall-sellergoods-service/src/main/resources/spring/applicationContext-service.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall-sellergoods-service/target/classes/com/marshal/sellergoods/service/impl/BrandServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall-sellergoods-service/target/classes/spring/applicationContext-service.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall-sellergoods-service/target/classes/spring/applicationContext-tx.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall-sellergoods-service/target/mall-sellergoods-service-1.0-SNAPSHOT.war" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall-sellergoods-service/target/mall-sellergoods-service-1.0-SNAPSHOT/WEB-INF/classes/com/marshal/sellergoods/service/impl/BrandServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall-sellergoods-service/target/mall-sellergoods-service-1.0-SNAPSHOT/WEB-INF/classes/spring/applicationContext-service.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall-sellergoods-service/target/mall-sellergoods-service-1.0-SNAPSHOT/WEB-INF/classes/spring/applicationContext-tx.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall-sellergoods-service/target/mall-sellergoods-service-1.0-SNAPSHOT/WEB-INF/lib/aopalliance-1.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall-sellergoods-service/target/mall-sellergoods-service-1.0-SNAPSHOT/WEB-INF/lib/aspectjweaver-1.8.7.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall-sellergoods-service/target/mall-sellergoods-service-1.0-SNAPSHOT/WEB-INF/lib/commons-codec-1.10.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall-sellergoods-service/target/mall-sellergoods-service-1.0-SNAPSHOT/WEB-INF/lib/commons-logging-1.2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall-sellergoods-service/target/mall-sellergoods-service-1.0-SNAPSHOT/WEB-INF/lib/druid-1.0.9.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall-sellergoods-service/target/mall-sellergoods-service-1.0-SNAPSHOT/WEB-INF/lib/dubbo-2.8.4.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall-sellergoods-service/target/mall-sellergoods-service-1.0-SNAPSHOT/WEB-INF/lib/fastjson-1.2.28.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall-sellergoods-service/target/mall-sellergoods-service-1.0-SNAPSHOT/WEB-INF/lib/hamcrest-core-1.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall-sellergoods-service/target/mall-sellergoods-service-1.0-SNAPSHOT/WEB-INF/lib/javassist-3.11.0.GA.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall-sellergoods-service/target/mall-sellergoods-service-1.0-SNAPSHOT/WEB-INF/lib/jline-0.9.94.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall-sellergoods-service/target/mall-sellergoods-service-1.0-SNAPSHOT/WEB-INF/lib/jsqlparser-0.9.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall-sellergoods-service/target/mall-sellergoods-service-1.0-SNAPSHOT/WEB-INF/lib/junit-4.9.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall-sellergoods-service/target/mall-sellergoods-service-1.0-SNAPSHOT/WEB-INF/lib/log4j-1.2.16.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall-sellergoods-service/target/mall-sellergoods-service-1.0-SNAPSHOT/WEB-INF/lib/mall-dao-1.0-SNAPSHOT.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall-sellergoods-service/target/mall-sellergoods-service-1.0-SNAPSHOT/WEB-INF/lib/mall-pojo-1.0-SNAPSHOT.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall-sellergoods-service/target/mall-sellergoods-service-1.0-SNAPSHOT/WEB-INF/lib/mall-sellergoods-interface-1.0-SNAPSHOT.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall-sellergoods-service/target/mall-sellergoods-service-1.0-SNAPSHOT/WEB-INF/lib/mybatis-3.2.8.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall-sellergoods-service/target/mall-sellergoods-service-1.0-SNAPSHOT/WEB-INF/lib/mybatis-paginator-1.2.15.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall-sellergoods-service/target/mall-sellergoods-service-1.0-SNAPSHOT/WEB-INF/lib/mybatis-spring-1.2.2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall-sellergoods-service/target/mall-sellergoods-service-1.0-SNAPSHOT/WEB-INF/lib/mysql-connector-java-5.1.32.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall-sellergoods-service/target/mall-sellergoods-service-1.0-SNAPSHOT/WEB-INF/lib/netty-3.7.0.Final.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall-sellergoods-service/target/mall-sellergoods-service-1.0-SNAPSHOT/WEB-INF/lib/pagehelper-4.0.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall-sellergoods-service/target/mall-sellergoods-service-1.0-SNAPSHOT/WEB-INF/lib/slf4j-api-1.6.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall-sellergoods-service/target/mall-sellergoods-service-1.0-SNAPSHOT/WEB-INF/lib/slf4j-log4j12-1.6.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall-sellergoods-service/target/mall-sellergoods-service-1.0-SNAPSHOT/WEB-INF/lib/spring-aop-4.2.4.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall-sellergoods-service/target/mall-sellergoods-service-1.0-SNAPSHOT/WEB-INF/lib/spring-aspects-4.2.4.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall-sellergoods-service/target/mall-sellergoods-service-1.0-SNAPSHOT/WEB-INF/lib/spring-beans-4.2.4.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall-sellergoods-service/target/mall-sellergoods-service-1.0-SNAPSHOT/WEB-INF/lib/spring-context-4.2.4.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall-sellergoods-service/target/mall-sellergoods-service-1.0-SNAPSHOT/WEB-INF/lib/spring-context-support-4.2.4.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall-sellergoods-service/target/mall-sellergoods-service-1.0-SNAPSHOT/WEB-INF/lib/spring-core-4.2.4.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall-sellergoods-service/target/mall-sellergoods-service-1.0-SNAPSHOT/WEB-INF/lib/spring-expression-4.2.4.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall-sellergoods-service/target/mall-sellergoods-service-1.0-SNAPSHOT/WEB-INF/lib/spring-jdbc-4.2.4.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall-sellergoods-service/target/mall-sellergoods-service-1.0-SNAPSHOT/WEB-INF/lib/spring-jms-4.2.4.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall-sellergoods-service/target/mall-sellergoods-service-1.0-SNAPSHOT/WEB-INF/lib/spring-messaging-4.2.4.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall-sellergoods-service/target/mall-sellergoods-service-1.0-SNAPSHOT/WEB-INF/lib/spring-test-4.2.4.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall-sellergoods-service/target/mall-sellergoods-service-1.0-SNAPSHOT/WEB-INF/lib/spring-tx-4.2.4.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall-sellergoods-service/target/mall-sellergoods-service-1.0-SNAPSHOT/WEB-INF/lib/spring-web-4.2.4.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall-sellergoods-service/target/mall-sellergoods-service-1.0-SNAPSHOT/WEB-INF/lib/spring-webmvc-4.2.4.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall-sellergoods-service/target/mall-sellergoods-service-1.0-SNAPSHOT/WEB-INF/lib/zkclient-0.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall-sellergoods-service/target/mall-sellergoods-service-1.0-SNAPSHOT/WEB-INF/lib/zookeeper-3.4.7.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall-sellergoods-service/target/mall-sellergoods-service-1.0-SNAPSHOT/WEB-INF/web.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall-sellergoods-service/target/maven-archiver/pom.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall-sellergoods-service/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall-sellergoods-service/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall-sellergoods-service/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall-sellergoods-service/target/tomcat/conf/logging.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall-sellergoods-service/target/tomcat/conf/tomcat-users.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall-sellergoods-service/target/tomcat/conf/web.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall-sellergoods-service/target/tomcat/logs/access_log.2018-10-02" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall-shop-web/target/classes/config/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall-shop-web/target/classes/spring/springmvc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall-shop-web/target/mall-shop-web-1.0-SNAPSHOT.war" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall-shop-web/target/mall-shop-web-1.0-SNAPSHOT/WEB-INF/classes/config/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall-shop-web/target/mall-shop-web-1.0-SNAPSHOT/WEB-INF/classes/spring/springmvc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall-shop-web/target/mall-shop-web-1.0-SNAPSHOT/WEB-INF/lib/aopalliance-1.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall-shop-web/target/mall-shop-web-1.0-SNAPSHOT/WEB-INF/lib/aspectjweaver-1.8.7.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall-shop-web/target/mall-shop-web-1.0-SNAPSHOT/WEB-INF/lib/commons-codec-1.10.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall-shop-web/target/mall-shop-web-1.0-SNAPSHOT/WEB-INF/lib/commons-logging-1.2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall-shop-web/target/mall-shop-web-1.0-SNAPSHOT/WEB-INF/lib/dubbo-2.8.4.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall-shop-web/target/mall-shop-web-1.0-SNAPSHOT/WEB-INF/lib/fastjson-1.2.28.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall-shop-web/target/mall-shop-web-1.0-SNAPSHOT/WEB-INF/lib/hamcrest-core-1.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall-shop-web/target/mall-shop-web-1.0-SNAPSHOT/WEB-INF/lib/javassist-3.11.0.GA.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall-shop-web/target/mall-shop-web-1.0-SNAPSHOT/WEB-INF/lib/jline-0.9.94.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall-shop-web/target/mall-shop-web-1.0-SNAPSHOT/WEB-INF/lib/junit-4.9.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall-shop-web/target/mall-shop-web-1.0-SNAPSHOT/WEB-INF/lib/log4j-1.2.16.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall-shop-web/target/mall-shop-web-1.0-SNAPSHOT/WEB-INF/lib/netty-3.7.0.Final.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall-shop-web/target/mall-shop-web-1.0-SNAPSHOT/WEB-INF/lib/slf4j-api-1.6.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall-shop-web/target/mall-shop-web-1.0-SNAPSHOT/WEB-INF/lib/slf4j-log4j12-1.6.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall-shop-web/target/mall-shop-web-1.0-SNAPSHOT/WEB-INF/lib/spring-aop-4.2.4.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall-shop-web/target/mall-shop-web-1.0-SNAPSHOT/WEB-INF/lib/spring-aspects-4.2.4.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall-shop-web/target/mall-shop-web-1.0-SNAPSHOT/WEB-INF/lib/spring-beans-4.2.4.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall-shop-web/target/mall-shop-web-1.0-SNAPSHOT/WEB-INF/lib/spring-context-4.2.4.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall-shop-web/target/mall-shop-web-1.0-SNAPSHOT/WEB-INF/lib/spring-context-support-4.2.4.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall-shop-web/target/mall-shop-web-1.0-SNAPSHOT/WEB-INF/lib/spring-core-4.2.4.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall-shop-web/target/mall-shop-web-1.0-SNAPSHOT/WEB-INF/lib/spring-expression-4.2.4.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall-shop-web/target/mall-shop-web-1.0-SNAPSHOT/WEB-INF/lib/spring-jdbc-4.2.4.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall-shop-web/target/mall-shop-web-1.0-SNAPSHOT/WEB-INF/lib/spring-jms-4.2.4.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall-shop-web/target/mall-shop-web-1.0-SNAPSHOT/WEB-INF/lib/spring-messaging-4.2.4.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall-shop-web/target/mall-shop-web-1.0-SNAPSHOT/WEB-INF/lib/spring-test-4.2.4.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall-shop-web/target/mall-shop-web-1.0-SNAPSHOT/WEB-INF/lib/spring-tx-4.2.4.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall-shop-web/target/mall-shop-web-1.0-SNAPSHOT/WEB-INF/lib/spring-web-4.2.4.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall-shop-web/target/mall-shop-web-1.0-SNAPSHOT/WEB-INF/lib/spring-webmvc-4.2.4.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall-shop-web/target/mall-shop-web-1.0-SNAPSHOT/WEB-INF/lib/zkclient-0.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall-shop-web/target/mall-shop-web-1.0-SNAPSHOT/WEB-INF/lib/zookeeper-3.4.7.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall-shop-web/target/mall-shop-web-1.0-SNAPSHOT/WEB-INF/web.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall-shop-web/target/maven-archiver/pom.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall-shop-web/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall-shop-web/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
-    </list>
+    <list default="true" id="9aeed841-bcdd-448d-b124-45e1339667e8" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/mall-common/target/" />
@@ -386,7 +83,7 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/mall-sellergoods-service/src/main/resources/spring/applicationContext-service.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
+            <state relative-caret-position="118">
               <caret line="17" column="8" selection-start-line="17" selection-start-column="8" selection-end-line="17" selection-end-column="8" />
             </state>
           </provider>
@@ -686,12 +383,12 @@
       <workItem from="1538441336994" duration="6983000" />
       <workItem from="1538448481708" duration="3589000" />
       <workItem from="1538457141481" duration="1763000" />
-      <workItem from="1538464643015" duration="620000" />
+      <workItem from="1538464643015" duration="884000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15868000" />
+    <option name="totallyTimeSpent" value="16132000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -715,13 +412,13 @@
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.692691" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.692691" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.4995958" weight="0.46179402" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3283582" />
       <window_info anchor="bottom" id="Spring" order="7" weight="0.3283582" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.40199336" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.40199336" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5004042" side_tool="true" weight="0.41625208" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.3283582" />
       <window_info anchor="bottom" id="Java Enterprise" order="11" weight="0.3283582" />
@@ -1057,7 +754,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/mall-sellergoods-service/src/main/resources/spring/applicationContext-service.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
+        <state relative-caret-position="118">
           <caret line="17" column="8" selection-start-line="17" selection-start-column="8" selection-end-line="17" selection-end-column="8" />
         </state>
       </provider>

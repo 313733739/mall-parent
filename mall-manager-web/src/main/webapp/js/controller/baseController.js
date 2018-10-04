@@ -25,4 +25,17 @@ app.controller("baseController",function ($scope) {
             $scope.idList.splice(index,1);
         }
     }
+    
+    $scope.jsonRenderer=function (jsonStr) {
+        debugger;
+        var json=JSON.parse(jsonStr);
+        var renderStr="";
+        for(var i=0;i<json.length;i++){
+            if(i>0){
+                renderStr+=",";
+            }
+            renderStr+=json[i].text;
+        }
+        return renderStr;
+    }
 });

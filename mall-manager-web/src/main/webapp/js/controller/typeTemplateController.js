@@ -1,14 +1,18 @@
 //控制层
-app.controller("typeTemplateController",function ($scope,$controller,typeTemplateService) {
+app.controller("typeTemplateController",function ($scope,$controller,typeTemplateService,brandService,specificationService) {
     //继承
     $controller("baseController",{$scope:$scope});
     //初始化
     $scope.addInit=function(){
-        $scope.typeTemplate={};
+        $scope.typeTemplate={customAttributeItems:[]};
     }
     $scope.updateInit=function(id){
         typeTemplateService.queryById(id).success(function(data){
             $scope.typeTemplate=data;
+
+            $scope.typeTemplate.brandIds=JSON.parse($scope.typeTemplate.brandIds);
+            $scope.typeTemplate.specIds=JSON.parse($scope.typeTemplate.specIds);
+            $scope.typeTemplate.customAttributeItems=JSON.parse($scope.typeTemplate.customAttributeItems);
         });
     }
     //查询
@@ -37,5 +41,27 @@ app.controller("typeTemplateController",function ($scope,$controller,typeTemplat
                 alert(data.message);
             }
         });
+    }
+
+    //获取下拉框数据
+    //防止ajax异步导致为空，声明一个空的
+    $scope.brandList={data:[]};
+    $scope.specificationList={data:[]}
+    $scope.getOptionList=function () {
+        brandService.getOptionList().success(function(data){
+            $scope.brandList={data:data};
+        });
+        specificationService.getOptionList().success(function(data){
+            $scope.specificationList={data:data};
+        });
+    }
+
+    //新增行表
+    $scope.addRow=function(){
+        $scope.typeTemplate.customAttributeItems.push({});
+    }
+    //删除行表
+    $scope.deleteRow=function(index){
+        $scope.typeTemplate.customAttributeItems.splice(index,1);
     }
 });

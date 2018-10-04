@@ -16,4 +16,8 @@ app.service("brandService",function($http){
     this.queryById=function (id) {
         return $http.get("../brand/queryById?id="+id);
     }
+
+    this.getOptionList=function(){
+        return $http.get("../brand/getOptionList");
+    }
 });

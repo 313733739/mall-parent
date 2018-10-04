@@ -16,4 +16,8 @@ app.service("specificationService",function($http){
     this.queryById=function (id) {
         return $http.get("../specification/queryById?id="+id);
     }
+
+    this.getOptionList=function(){
+        return $http.get("../specification/getOptionList");
+    }
 });

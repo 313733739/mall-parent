@@ -15,6 +15,11 @@
     select
     <include refid="Base_Column_List"/>
     from tb_type_template
+    <where>
+      <if test="name!=null">
+        name like concat('%',#{name},'%')
+      </if>
+    </where>
   </select>
   <select id="selectByPrimaryKey" resultMap="BaseResultMap" parameterType="java.lang.Long" >
     select 

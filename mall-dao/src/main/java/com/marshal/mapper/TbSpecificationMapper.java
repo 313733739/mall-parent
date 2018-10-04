@@ -3,9 +3,12 @@ package com.marshal.mapper;
 import com.marshal.pojo.TbSpecification;
 
 import java.util.List;
+import java.util.Map;
 
 public interface TbSpecificationMapper {
     List<TbSpecification> selectByCondition(TbSpecification condition);
+
+    List<Map> getOptionList();
 
     int deleteByPrimaryKey(Long id);
 

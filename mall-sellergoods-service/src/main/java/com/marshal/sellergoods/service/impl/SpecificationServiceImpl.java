@@ -12,6 +12,8 @@ import com.marshal.sellergoods.service.SpecificationService;
 import org.springframework.beans.factory.annotation.Autowired;
 import com.marshal.pojo.TbSpecification;
 import java.util.List;
+import java.util.Map;
+
 @Service
 public class SpecificationServiceImpl implements SpecificationService {
 	@Autowired
@@ -36,6 +38,11 @@ public class SpecificationServiceImpl implements SpecificationService {
 		TbSpecification tbSpecification=tbSpecificationMapper.selectByPrimaryKey(id);
 
 		return tbSpecificationMapper.selectByPrimaryKey(id);
+	}
+
+	@Override
+	public List<Map> getOptionList() {
+		return tbSpecificationMapper.getOptionList();
 	}
 
 	@Override

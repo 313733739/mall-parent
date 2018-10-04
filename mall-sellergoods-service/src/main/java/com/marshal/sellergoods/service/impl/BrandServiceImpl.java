@@ -9,6 +9,8 @@ import com.marshal.sellergoods.service.BrandService;
 import org.springframework.beans.factory.annotation.Autowired;
 import com.marshal.pojo.TbBrand;
 import java.util.List;
+import java.util.Map;
+
 @Service
 public class BrandServiceImpl implements BrandService {
     @Autowired
@@ -29,6 +31,11 @@ public class BrandServiceImpl implements BrandService {
     @Override
     public TbBrand queryById(Long id) {
         return tbBrandMapper.selectByPrimaryKey(id);
+    }
+
+    @Override
+    public List<Map> getOptionList() {
+        return tbBrandMapper.getOptionList();
     }
 
     @Override

@@ -14,6 +14,19 @@
     select
     <include refid="Base_Column_List"/>
     from tb_specification_option
+    <where>
+      <if test="optionName!=null">
+        and option_name like concat('%',#{optionName},'%')
+      </if>
+    </where>
+  </select>
+  <select id="selectBySpecId" resultMap="BaseResultMap" parameterType="java.lang.Long">
+    select
+    <include refid="Base_Column_List"/>
+    from
+    tb_specification_option
+    where
+    spec_id =#{spec_id}
   </select>
   <select id="selectByPrimaryKey" resultMap="BaseResultMap" parameterType="java.lang.Long" >
     select 
@@ -24,6 +37,10 @@
   <delete id="deleteByPrimaryKey" parameterType="java.lang.Long" >
     delete from tb_specification_option
     where id = #{id,jdbcType=BIGINT}
+  </delete>
+  <delete id="deleteBySpecId" parameterType="java.lang.Long" >
+    delete from tb_specification_option
+    where spec_id = #{specId,jdbcType=BIGINT}
   </delete>
   <insert id="insert" parameterType="com.marshal.pojo.TbSpecificationOption" >
     insert into tb_specification_option (id, option_name, spec_id, 

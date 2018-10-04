@@ -1,6 +1,9 @@
 package com.marshal.manager.controller;
 
 import com.alibaba.dubbo.config.annotation.Reference;
+import com.marshal.pojo.TbSpecificationOption;
+import com.marshal.pojoext.Specification;
+import com.marshal.sellergoods.service.SpecificationOptionService;
 import com.marshal.util.ResponseData;
 import com.marshal.sellergoods.service.SpecificationService;
 import com.marshal.pojo.TbSpecification;
@@ -13,27 +16,36 @@ import java.util.List;
 @RestController
 public class SpecificationController {
 	@Reference
-	SpecificationService SpecificationService;
+	SpecificationService specificationService;
+	@Reference
+	SpecificationOptionService specificationOptionService;
 
 	@RequestMapping("/queryAll")
 	public List<TbSpecification> queryAll(){
-		return SpecificationService.findAll();
+		return specificationService.findAll();
 	}
 
 	@RequestMapping("/query")
 	public ResponseData query(@RequestBody(required = false) TbSpecification condition,int pageNum,int pageSize){
-		return SpecificationService.query(condition,pageNum,pageSize);
+		return specificationService.query(condition,pageNum,pageSize);
 	}
 
 	@RequestMapping("/queryById")
-	public TbSpecification queryById(Long id){
-		return SpecificationService.queryById(id);
+	public Specification queryById(Long id){
+		Specification specification=new Specification();
+		TbSpecification tbSpecification =specificationService.queryById(id);
+		specification.setTbSpecification(tbSpecification);
+		List<TbSpecificationOption> rows=specificationOptionService.queryBySpecId(id);
+		if(rows!=null){
+			specification.setRows(rows);
+		}
+		return specification;
 	}
 
 	@RequestMapping("/save")
-	public ResponseData save(@RequestBody TbSpecification tbSpecification){
+	public ResponseData save(@RequestBody Specification specification){
 		try{
-			SpecificationService.save(tbSpecification);
+			specificationService.save(specification);
 			return new ResponseData(true,"保存成功");
 		}catch (Exception e){
 			e.printStackTrace();
@@ -44,7 +56,7 @@ public class SpecificationController {
 	@RequestMapping("/delete")
 	public ResponseData delete(Long[] idList){
 		try{
-			SpecificationService.delete(idList);
+			specificationService.delete(idList);
 			return new ResponseData(true,"删除成功");
 		}catch (Exception e){
 			e.printStackTrace();

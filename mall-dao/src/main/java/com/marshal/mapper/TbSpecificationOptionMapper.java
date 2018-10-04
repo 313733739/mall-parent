@@ -7,7 +7,11 @@ import java.util.List;
 public interface TbSpecificationOptionMapper {
     List<TbSpecificationOption> selectByCondition(TbSpecificationOption condition);
 
+    List<TbSpecificationOption> selectBySpecId(Long id);
+
     int deleteByPrimaryKey(Long id);
+
+    int deleteBySpecId(Long id);
 
     int insert(TbSpecificationOption record);
 

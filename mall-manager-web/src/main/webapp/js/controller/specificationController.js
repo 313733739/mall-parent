@@ -4,7 +4,7 @@ app.controller("specificationController",function ($scope,$controller,specificat
     $controller("baseController",{$scope:$scope});
     //初始化
     $scope.addInit=function(){
-        $scope.specification={};
+        $scope.specification={"rows":[]};
     }
     $scope.updateInit=function(id){
         specificationService.queryById(id).success(function(data){
@@ -37,5 +37,15 @@ app.controller("specificationController",function ($scope,$controller,specificat
                 alert(data.message);
             }
         });
+    }
+
+    //新增行表
+    $scope.addRow=function(){
+        $scope.specification.rows.push({});
+    }
+    //删除行表
+    $scope.deleteRow=function(index){
+        console.log($scope.specification.rows);
+        $scope.specification.rows.splice(index,1);
     }
 });

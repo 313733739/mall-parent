@@ -12,6 +12,11 @@
     select
     <include refid="Base_Column_List"/>
     from tb_specification
+      <where>
+          <if test="specName!=null">
+              spec_name like concat('%',#{specName},'%')
+          </if>
+      </where>
   </select>
   <select id="selectByPrimaryKey" resultMap="BaseResultMap" parameterType="java.lang.Long" >
     select 
@@ -26,6 +31,9 @@
   <insert id="insert" parameterType="com.marshal.pojo.TbSpecification" >
     insert into tb_specification (id, spec_name)
     values (#{id,jdbcType=BIGINT}, #{specName,jdbcType=VARCHAR})
+    <selectKey keyProperty="id" order="AFTER" resultType="java.lang.Long">
+      select LAST_INSERT_ID() as id
+    </selectKey>
   </insert>
   <insert id="insertSelective" parameterType="com.marshal.pojo.TbSpecification" >
     insert into tb_specification

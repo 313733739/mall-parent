@@ -1,5 +1,5 @@
 //控制层
-app.controller("BrandController",function ($scope,$controller,brandService) {
+app.controller("brandController",function ($scope,$controller,brandService) {
     //继承
     $controller("baseController",{$scope:$scope});
     //初始化

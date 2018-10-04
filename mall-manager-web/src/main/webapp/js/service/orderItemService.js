@@ -1,32 +1,19 @@
-//服务层
-app.service('orderItemService',function($http){
-	    	
-	//读取列表数据绑定到表单中
-	this.findAll=function(){
-		return $http.get('../orderItem/findAll.do');		
-	}
-	//分页 
-	this.findPage=function(page,rows){
-		return $http.get('../orderItem/findPage.do?page='+page+'&rows='+rows);
-	}
-	//查询实体
-	this.findOne=function(id){
-		return $http.get('../orderItem/findOne.do?id='+id);
-	}
-	//增加 
-	this.add=function(entity){
-		return  $http.post('../orderItem/add.do',entity );
-	}
-	//修改 
-	this.update=function(entity){
-		return  $http.post('../orderItem/update.do',entity );
-	}
-	//删除
-	this.dele=function(ids){
-		return $http.get('../orderItem/delete.do?ids='+ids);
-	}
-	//搜索
-	this.search=function(page,rows,searchEntity){
-		return $http.post('../orderItem/search.do?page='+page+"&rows="+rows, searchEntity);
-	}    	
+// service层,与数据库交互
+app.service("orderItemService",function($http){
+    //BASE crud
+    this.query=function(pageNum,pageSize,condition){
+        return $http.post("../orderItem/query?pageNum="+pageNum+"&pageSize="+pageSize,condition);
+    }
+
+    this.save=function (orderItem) {
+        return $http.post("../orderItem/save",orderItem);
+    }
+
+    this.remove=function (idList) {
+        return $http.get("../orderItem/delete?idList="+idList);
+    }
+
+    this.queryById=function (id) {
+        return $http.get("../orderItem/queryById?id="+id);
+    }
 });

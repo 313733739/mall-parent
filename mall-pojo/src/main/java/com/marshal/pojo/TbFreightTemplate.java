@@ -3,7 +3,7 @@ package com.marshal.pojo;
 import java.io.Serializable;
 import java.util.Date;
 
-public class TbFreightTemplate implements Serializable{
+public class TbFreightTemplate implements Serializable {
     private Long id;
 
     private String sellerId;

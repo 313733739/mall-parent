@@ -1,22 +1,21 @@
 package com.marshal.mapper;
 
 import com.marshal.pojo.TbUser;
-import com.marshal.pojo.TbUserExample;
+
 import java.util.List;
-import org.apache.ibatis.annotations.Param;
 
 public interface TbUserMapper {
-    long countByExample(TbUserExample example);
+    List<TbUser> selectByCondition(TbUser condition);
 
-    int deleteByExample(TbUserExample example);
+    int deleteByPrimaryKey(Long id);
 
     int insert(TbUser record);
 
     int insertSelective(TbUser record);
 
-    List<TbUser> selectByExample(TbUserExample example);
+    TbUser selectByPrimaryKey(Long id);
 
-    int updateByExampleSelective(@Param("record") TbUser record, @Param("example") TbUserExample example);
+    int updateByPrimaryKeySelective(TbUser record);
 
-    int updateByExample(@Param("record") TbUser record, @Param("example") TbUserExample example);
+    int updateByPrimaryKey(TbUser record);
 }

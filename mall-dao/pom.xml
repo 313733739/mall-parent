@@ -16,6 +16,11 @@
         <!-- pojo依赖 -->
         <dependency>
             <groupId>com.marshal</groupId>
+            <artifactId>mall-common</artifactId>
+            <version>1.0-SNAPSHOT</version>
+        </dependency>
+        <dependency>
+            <groupId>com.marshal</groupId>
             <artifactId>mall-pojo</artifactId>
             <version>1.0-SNAPSHOT</version>
         </dependency>

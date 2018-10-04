@@ -1,22 +1,21 @@
 package com.marshal.mapper;
 
 import com.marshal.pojo.TbAreas;
-import com.marshal.pojo.TbAreasExample;
+
 import java.util.List;
-import org.apache.ibatis.annotations.Param;
 
 public interface TbAreasMapper {
-    long countByExample(TbAreasExample example);
+    List<TbAreas> selectByCondition(TbAreas condition);
 
-    int deleteByExample(TbAreasExample example);
+    int deleteByPrimaryKey(Integer id);
 
     int insert(TbAreas record);
 
     int insertSelective(TbAreas record);
 
-    List<TbAreas> selectByExample(TbAreasExample example);
+    TbAreas selectByPrimaryKey(Integer id);
 
-    int updateByExampleSelective(@Param("record") TbAreas record, @Param("example") TbAreasExample example);
+    int updateByPrimaryKeySelective(TbAreas record);
 
-    int updateByExample(@Param("record") TbAreas record, @Param("example") TbAreasExample example);
+    int updateByPrimaryKey(TbAreas record);
 }

@@ -1,22 +1,21 @@
 package com.marshal.mapper;
 
 import com.marshal.pojo.TbPayLog;
-import com.marshal.pojo.TbPayLogExample;
+
 import java.util.List;
-import org.apache.ibatis.annotations.Param;
 
 public interface TbPayLogMapper {
-    long countByExample(TbPayLogExample example);
+    List<TbPayLog> selectByCondition(TbPayLog condition);
 
-    int deleteByExample(TbPayLogExample example);
+    int deleteByPrimaryKey(String outTradeNo);
 
     int insert(TbPayLog record);
 
     int insertSelective(TbPayLog record);
 
-    List<TbPayLog> selectByExample(TbPayLogExample example);
+    TbPayLog selectByPrimaryKey(String outTradeNo);
 
-    int updateByExampleSelective(@Param("record") TbPayLog record, @Param("example") TbPayLogExample example);
+    int updateByPrimaryKeySelective(TbPayLog record);
 
-    int updateByExample(@Param("record") TbPayLog record, @Param("example") TbPayLogExample example);
+    int updateByPrimaryKey(TbPayLog record);
 }

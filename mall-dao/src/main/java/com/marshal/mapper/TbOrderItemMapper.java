@@ -1,22 +1,21 @@
 package com.marshal.mapper;
 
 import com.marshal.pojo.TbOrderItem;
-import com.marshal.pojo.TbOrderItemExample;
+
 import java.util.List;
-import org.apache.ibatis.annotations.Param;
 
 public interface TbOrderItemMapper {
-    long countByExample(TbOrderItemExample example);
+    List<TbOrderItem> selectByCondition(TbOrderItem condition);
 
-    int deleteByExample(TbOrderItemExample example);
+    int deleteByPrimaryKey(Long id);
 
     int insert(TbOrderItem record);
 
     int insertSelective(TbOrderItem record);
 
-    List<TbOrderItem> selectByExample(TbOrderItemExample example);
+    TbOrderItem selectByPrimaryKey(Long id);
 
-    int updateByExampleSelective(@Param("record") TbOrderItem record, @Param("example") TbOrderItemExample example);
+    int updateByPrimaryKeySelective(TbOrderItem record);
 
-    int updateByExample(@Param("record") TbOrderItem record, @Param("example") TbOrderItemExample example);
+    int updateByPrimaryKey(TbOrderItem record);
 }

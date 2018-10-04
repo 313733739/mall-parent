@@ -1,7 +1,6 @@
 package com.marshal.pojo;
 
 import java.io.Serializable;
-import java.util.Date;
 
 public class TbContent implements Serializable {
     private Long id;
@@ -10,21 +9,13 @@ public class TbContent implements Serializable {
 
     private String title;
 
-    private String subTitle;
-
-    private String titleDesc;
-
     private String url;
 
     private String pic;
 
-    private String pic2;
+    private String status;
 
-    private Date created;
-
-    private Date updated;
-
-    private String content;
+    private Integer sortOrder;
 
     public Long getId() {
         return id;
@@ -50,22 +41,6 @@ public class TbContent implements Serializable {
         this.title = title;
     }
 
-    public String getSubTitle() {
-        return subTitle;
-    }
-
-    public void setSubTitle(String subTitle) {
-        this.subTitle = subTitle;
-    }
-
-    public String getTitleDesc() {
-        return titleDesc;
-    }
-
-    public void setTitleDesc(String titleDesc) {
-        this.titleDesc = titleDesc;
-    }
-
     public String getUrl() {
         return url;
     }
@@ -82,35 +57,19 @@ public class TbContent implements Serializable {
         this.pic = pic;
     }
 
-    public String getPic2() {
-        return pic2;
+    public String getStatus() {
+        return status;
     }
 
-    public void setPic2(String pic2) {
-        this.pic2 = pic2;
+    public void setStatus(String status) {
+        this.status = status;
     }
 
-    public Date getCreated() {
-        return created;
+    public Integer getSortOrder() {
+        return sortOrder;
     }
 
-    public void setCreated(Date created) {
-        this.created = created;
-    }
-
-    public Date getUpdated() {
-        return updated;
-    }
-
-    public void setUpdated(Date updated) {
-        this.updated = updated;
-    }
-
-    public String getContent() {
-        return content;
-    }
-
-    public void setContent(String content) {
-        this.content = content;
+    public void setSortOrder(Integer sortOrder) {
+        this.sortOrder = sortOrder;
     }
 }

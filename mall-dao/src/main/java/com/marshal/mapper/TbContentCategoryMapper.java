@@ -1,22 +1,21 @@
 package com.marshal.mapper;
 
 import com.marshal.pojo.TbContentCategory;
-import com.marshal.pojo.TbContentCategoryExample;
+
 import java.util.List;
-import org.apache.ibatis.annotations.Param;
 
 public interface TbContentCategoryMapper {
-    long countByExample(TbContentCategoryExample example);
+    List<TbContentCategory> selectByCondition(TbContentCategory condition);
 
-    int deleteByExample(TbContentCategoryExample example);
+    int deleteByPrimaryKey(Long id);
 
     int insert(TbContentCategory record);
 
     int insertSelective(TbContentCategory record);
 
-    List<TbContentCategory> selectByExample(TbContentCategoryExample example);
+    TbContentCategory selectByPrimaryKey(Long id);
 
-    int updateByExampleSelective(@Param("record") TbContentCategory record, @Param("example") TbContentCategoryExample example);
+    int updateByPrimaryKeySelective(TbContentCategory record);
 
-    int updateByExample(@Param("record") TbContentCategory record, @Param("example") TbContentCategoryExample example);
+    int updateByPrimaryKey(TbContentCategory record);
 }

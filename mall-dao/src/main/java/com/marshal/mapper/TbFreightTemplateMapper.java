@@ -1,22 +1,21 @@
 package com.marshal.mapper;
 
 import com.marshal.pojo.TbFreightTemplate;
-import com.marshal.pojo.TbFreightTemplateExample;
+
 import java.util.List;
-import org.apache.ibatis.annotations.Param;
 
 public interface TbFreightTemplateMapper {
-    long countByExample(TbFreightTemplateExample example);
+    List<TbFreightTemplate> selectByCondition(TbFreightTemplate condition);
 
-    int deleteByExample(TbFreightTemplateExample example);
+    int deleteByPrimaryKey(Long id);
 
     int insert(TbFreightTemplate record);
 
     int insertSelective(TbFreightTemplate record);
 
-    List<TbFreightTemplate> selectByExample(TbFreightTemplateExample example);
+    TbFreightTemplate selectByPrimaryKey(Long id);
 
-    int updateByExampleSelective(@Param("record") TbFreightTemplate record, @Param("example") TbFreightTemplateExample example);
+    int updateByPrimaryKeySelective(TbFreightTemplate record);
 
-    int updateByExample(@Param("record") TbFreightTemplate record, @Param("example") TbFreightTemplateExample example);
+    int updateByPrimaryKey(TbFreightTemplate record);
 }

@@ -1,22 +1,21 @@
 package com.marshal.mapper;
 
 import com.marshal.pojo.TbSeckillOrder;
-import com.marshal.pojo.TbSeckillOrderExample;
+
 import java.util.List;
-import org.apache.ibatis.annotations.Param;
 
 public interface TbSeckillOrderMapper {
-    long countByExample(TbSeckillOrderExample example);
+    List<TbSeckillOrder> selectByCondition(TbSeckillOrder condition);
 
-    int deleteByExample(TbSeckillOrderExample example);
+    int deleteByPrimaryKey(Long id);
 
     int insert(TbSeckillOrder record);
 
     int insertSelective(TbSeckillOrder record);
 
-    List<TbSeckillOrder> selectByExample(TbSeckillOrderExample example);
+    TbSeckillOrder selectByPrimaryKey(Long id);
 
-    int updateByExampleSelective(@Param("record") TbSeckillOrder record, @Param("example") TbSeckillOrderExample example);
+    int updateByPrimaryKeySelective(TbSeckillOrder record);
 
-    int updateByExample(@Param("record") TbSeckillOrder record, @Param("example") TbSeckillOrderExample example);
+    int updateByPrimaryKey(TbSeckillOrder record);
 }

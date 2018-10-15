@@ -15,4 +15,6 @@ public interface SellerService {
 	public void save(TbSeller tbSeller);
 
 	public void delete(String[] ids);
+
+	public void register(TbSeller tbSeller);
 }

@@ -28,4 +28,6 @@
 	<dubbo:registry address="zookeeper://192.168.25.128:2181"/>
 	<dubbo:annotation package="com.marshal.shop.controller" />
 
+	<!-- 处理静态资源 -->
+	<mvc:default-servlet-handler />
 </beans>

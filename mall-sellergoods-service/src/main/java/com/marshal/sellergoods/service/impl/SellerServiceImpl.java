@@ -8,6 +8,8 @@ import com.marshal.util.ResponseData;
 import com.marshal.sellergoods.service.SellerService;
 import org.springframework.beans.factory.annotation.Autowired;
 import com.marshal.pojo.TbSeller;
+
+import java.util.Date;
 import java.util.List;
 @Service
 public class SellerServiceImpl implements SellerService {
@@ -45,5 +47,12 @@ public class SellerServiceImpl implements SellerService {
 		for(String id :idList){
 			tbSellerMapper.deleteByPrimaryKey(id);
 		}
+	}
+
+	@Override
+	public void register(TbSeller tbSeller) {
+		tbSeller.setStatus("0");
+		tbSeller.setCreateTime(new Date());
+		tbSellerMapper.insert(tbSeller);
 	}
 }

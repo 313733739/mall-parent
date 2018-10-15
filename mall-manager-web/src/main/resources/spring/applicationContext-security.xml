@@ -16,13 +16,15 @@
 		<!-- 当前用户必须拥有ROLE_USER角色，才能访问根目录及子目录的所有资源 -->
 		<intercept-url pattern="/**" access="ROLE_ADMIN"/>
 		<!-- 开启表单登陆功能 -->
-		<form-login login-page="/login.html" default-target-url="/admin/index.html" authentication-failure-url="/login.html"/>
+		<form-login login-page="/login.html" default-target-url="/admin/index.html" authentication-failure-url="/login.html" always-use-default-target="true"/>
 		<!--关闭csrf验证-->
 		<csrf disabled="true"/>
 		<!--允许iframe-->
 		<headers>
 			<frame-options policy="SAMEORIGIN"/>
 		</headers>
+		<!--退出 logout-success-url -->
+		<logout logout-url="/logout" />
 	</http>
 
 	<!--认证管理器-->

@@ -1,13 +1,19 @@
 package com.marshal.util;
 
+import com.fasterxml.jackson.annotation.JsonInclude;
+import com.fasterxml.jackson.databind.annotation.JsonSerialize;
+
 import java.io.Serializable;
 import java.util.List;
 
 public class ResponseData implements Serializable {
-
+    @JsonInclude(JsonInclude.Include.NON_NULL)
     private long total;
+    @JsonInclude(JsonInclude.Include.NON_NULL)
     private List rows;
+    @JsonInclude(JsonInclude.Include.NON_NULL)
     private boolean success;
+    @JsonInclude(JsonInclude.Include.NON_NULL)
     private String message;
 
     public ResponseData() {
